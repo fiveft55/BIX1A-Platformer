@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SoundManager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":62.77338,"y":314.4218},"zoom":0.5999999,"elements":[{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":null},"position":{"x":29.0,"y":-161.0},"guid":"3565ad9a-6565-4ed5-8855-a88f3d8b4530","$version":"A","$type":"Bolt.InvokeMember","$id":"9"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"PlaySound","$type":"System.String"}},"position":{"x":-217.0,"y":-146.0},"guid":"d9325d69-db7b-45a8-a6ab-2fe733d4d3f4","$version":"A","$type":"Bolt.CustomEvent","$id":"12"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"c5cb223e-418a-4880-90fb-fae9618b286c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"argument_0","destinationUnit":{"$ref":"9"},"destinationKey":"%clip","guid":"3afe3738-fbb6-47d5-8eec-b1638c305c7c","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
